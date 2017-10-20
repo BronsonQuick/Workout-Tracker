@@ -7,9 +7,25 @@ function bootstrap() {
 }
 
 function circuit_cpt() {
-	register_extended_post_type( 'circuit' );
+	register_extended_post_type(
+		'circuit',
+		[
+			'supports' => [
+				'title',
+				'editor',
+			],
+		]
+	);
 }
 
 function weights_cpt() {
-	register_extended_post_type( 'weight' );
+	register_extended_post_type(
+		'weight',
+		[
+			'supports' => [
+				'title',
+				'editor',
+			],
+		]
+	);
 }
