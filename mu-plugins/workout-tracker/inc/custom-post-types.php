@@ -25,7 +25,9 @@ function weights_cpt() {
 			'supports' => [
 				'title',
 				'editor',
+				'thumbnail',
 			],
+			'featured_image' => 'Body Photo',
 		],
 		[
 			'singular' => 'Weight Workout',
