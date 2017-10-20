@@ -1,0 +1,6 @@
+[submodule "mu-plugins/cmb2"]
+	path = mu-plugins/cmb2
+	url = https://github.com/CMB2/CMB2.git
+[submodule "mu-plugins/extended-cpts"]
+	path = mu-plugins/extended-cpts
+	url = https://github.com/johnbillion/extended-cpts.git

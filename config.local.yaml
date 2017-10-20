@@ -1,0 +1,14 @@
+hosts:
+    - workout.local
+
+# Extensions
+#
+# Install a list of extensions automatically
+extensions:
+  - chassis/mailhog
+  - chassis/xdebug
+  - chassis/sequelpro
+
+# PHP version
+# Values: 5.6, 7.0, 7.1 (or 5.6.30)
+php: 7.1
