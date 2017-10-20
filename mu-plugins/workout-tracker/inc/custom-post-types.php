@@ -26,6 +26,9 @@ function weights_cpt() {
 				'title',
 				'editor',
 			],
+		],
+		[
+			'singular' => 'Weight Workout',
 		]
 	);
 }
