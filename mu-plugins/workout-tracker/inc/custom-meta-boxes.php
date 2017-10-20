@@ -9,7 +9,7 @@ function weight_meta_boxes() {
 	$cmb = new_cmb2_box( [
 		'id'            => 'workout_details',
 		'title'         => __( 'Workout Details', 'workout-tracker' ),
-		'object_types'  => [ 'weight' ],
+		'object_types'  => [ 'weight', 'circuit' ],
 		'show_names'    => true,
 	] );
 

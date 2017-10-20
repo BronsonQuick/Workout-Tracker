@@ -13,7 +13,12 @@ function circuit_cpt() {
 			'supports' => [
 				'title',
 				'editor',
+				'thumbnail',
 			],
+			'featured_image' => 'Body Photo',
+		],
+		[
+			'singular' => 'Circuit Workout',
 		]
 	);
 }
